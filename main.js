@@ -22,7 +22,7 @@ function currentTime() {
     const currentMonth = now.getMonth();
 
     today.innerHTML = `${days[day]}`
-    months.innerHTML = `${month[currentMonth]}, ${monthDay}, ${year}`
+    months.innerHTML = `${month[currentMonth]} ${monthDay}, ${year}`
     clock.innerHTML = `${hours} : ${min} : ${sec}`;
 };
 
